@@ -31,7 +31,7 @@ justify-content: space-around;
     position: fixed;
     padding-top: 20px;
     z-index: 1;
-    top: 12.5%;
+    top: 8.3%;
     left: 0;
     border: 2px red;
     bottom: 10.2%;
@@ -48,7 +48,7 @@ justify-content: space-around;
 
 
 .Header{
-height: 12vh;
+height: 8.2vh;
 width: 100vw;
 background-color: rgb(177, 204, 207);
 Display: flex;
