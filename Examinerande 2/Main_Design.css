@@ -74,12 +74,30 @@ position: relative;
 .Title {
 
     padding-top: 0%;
+    font-size: 50;
 }
 
-.Lorem {
+.Points{
 
 padding-top: 5%;
-position: relative;
+
+}
+
+.Sub_title {
+padding-top: 2%;
+font-family: 'Times New Roman', Times, serif;
+font-size: 24;
+
+}
+
+.Text{
+    padding-top: 2%;
+    position: relative;
+    padding-right: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+    padding-bottom: 2%;
+
 }
 
 .Maincontent{
