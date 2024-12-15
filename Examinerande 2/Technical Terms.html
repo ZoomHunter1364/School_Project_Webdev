@@ -108,7 +108,33 @@
       
       <h1 class="Points">Differences Between HTTP And HTTPS</h1>
       <h4 class="Sub_title">Differneces Between PUT,GET And POST Methods In HTTP</h4>
-      <p class="Text"></p>
+      <p class="Text">GET: GET is a method that is used to retrieve data from a server. Clients commonly use this method to access specific resources or data, such as websites, applications and files. GET requests are idempotent, meaning that they do not modify, update or change the server's state, which means that several requests will yield the same result without any side effects on the server. 
+<br>
+<br>
+        PUT: PUT is a method that is used to update an existing resource by replacing the entire resource with the new updated resource that will act as the replacement resource. This essentially means that any resources not included in the new replacement resource will be excluded and deleted. This method has an idempotent nature as well, meaning that the result will not change with repeated requests, ensuring that the resource will always be replaced with the same content.
+        <br>
+        <br>
+        POST: POST is a method that is used to create new resources, meaning that unlike the GET method, a POST method includes a request body that specifies the attributes and contents of the resource that is to be created. 
+        </p>
+
+        <h4 class="Sub_title">What Are HTTP Codes</h4>
+        <p class="Text">HTTP codes are 3 digit responses sent by servers following a request from the client that can appear because of a multitude of reasons, but they are essentially status codes detailing the status of requests sent by the client to the server. 
+          <br>
+          <br>
+          The following are some examples of infamous common status codes that the server can send:
+          <br>
+          <br>
+          Status Code 200: This code means that the request was successful and that the server has successfully processed the request. 
+          <br>
+          <br>
+          Status Code 301 & 302: This code notifies the user that the requested resource has been either permanently or temporarily moved to a different location (Different URL) and that any and all future requests for said resource should be directed towards the new location. The new URL is usually provided along with the code, with the URL being permanent if the code is 301, and temporary if the code is 302.
+          <br>
+          <br>
+          Status Code 404: This code tells the user that the resource that they requested could not be found and can occur when the provided URL is wrong, when the resource has been moved or deleted and either not created or simply removed. 
+          <br>
+          <br>
+          Status Code 500: This code tells the user that there is an issue with the server concerning the users request, preventing the server from processing the users request. The issue is a server side issue and has nothing to do with the user or its request.
+          </p>
 
       <h1 class="Points"></h1>
       <h4 class="Sub_title"></h4>
