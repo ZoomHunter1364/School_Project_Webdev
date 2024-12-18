@@ -1,18 +1,41 @@
+body{
+    background-color: #D3D9D4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 0px black solid;
+    }
+
+
 .Link_Images {
     position: relative;
     display: inline-block;
+    padding-top: 5%;
 }
 
-.First_Link {
+.Link_Images img{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 300px; 
-    height: auto; 
-    border-radius: 10px; 
+    width: 25%; 
+    max-width: 100%;
+    height: 35%; 
+    border-radius: 0px; 
+    padding-left: 2.5%;
+    padding-right: 3.5%;
+    padding-bottom: 3.5%;
+    
 }
 
-.Link_Images:hover .First_Link {
+
+
+.Link_Images .Second_Link:hover img{
     transform: scale(1.1);  
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2); 
+    
 }
 
+.Link_Images .Third_Link:hover img{
+    transform: scale(1.1);  
+    
+}
 
+.Link_Images .Fourth_Link:hover img{
+    transform: scale(1.1);  
+     
+}
