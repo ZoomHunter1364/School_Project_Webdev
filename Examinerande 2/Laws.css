@@ -1,0 +1,13 @@
+.GDPR {
+
+display: flex;
+align-items:flex-start;
+gap: 20px;
+}
+
+.GDPR img {
+    order: 1;
+    width: 500px;
+    height: auto;
+
+}
