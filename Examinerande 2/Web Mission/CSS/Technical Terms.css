@@ -7,7 +7,7 @@ gap: 10px;
     
 .OSI img {
 order: 1;
- width: 300vh;
+ width: 100vh;
 height: auto;
  padding-right: 10%;
     }
@@ -110,47 +110,21 @@ padding-right: 10%;
                     padding-right: 10%;
                     }
 
-                    .ROOT {
+                    
 
-                        display: flex;
-                        align-items:flex-start;
-                        gap: 10px;
-                        }
-                                    
-                        .ROOT img {
-                        order: 1;
-                        width: 300vh;
-                        height: auto;
-                        padding-right: 10%;
-                        }
-
-                        .TOP {
+                        .DNS {
 
                             display: flex;
                             align-items:flex-start;
                             gap: 10px;
                             }
                                         
-                            .TOP img {
+                            .DNS img {
                             order: 1;
                             width: 300vh;
                             height: auto;
                             padding-right: 10%;
                             }
-
-                            .SECOND {
-
-                                display: flex;
-                                align-items:flex-start;
-                                gap: 10px;
-                                }
-                                            
-                                .SECOND img {
-                                order: 1;
-                                width: 300vh;
-                                height: auto;
-                                padding-right: 10%;
-                                }
 
                                 .SUB {
 
@@ -175,7 +149,7 @@ padding-right: 10%;
                                                     
                                         .HOST img {
                                         order: 1;
-                                        width: 300vh;
+                                        width: 100vh;
                                         height: auto;
                                         padding-right: 10%;
                                         }

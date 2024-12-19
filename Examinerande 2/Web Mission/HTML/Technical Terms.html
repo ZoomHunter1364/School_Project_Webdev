@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test websida</title>
-    <link rel="stylesheet" href="/CSS/Main_Design.css">
-    <link rel="stylesheet" href="/CSS/Technical Terms.css Terms.css">
+    <link rel="stylesheet" href="../CSS/Main_Design.css">
+    <link rel="stylesheet" href="../CSS/Technical Terms.css">
 
 </head>
 
@@ -16,7 +16,7 @@
 <div class="Header">
 
     <div class="Logo">
-      <img class = "first image" src="/Pictures/Hampter_clutch.png" width="74" height="72"></img>
+      <img class = "first image" src="../Pictures/Hampter_clutch.png" width="74" height="72"></img>
 
 
     </div>
@@ -25,10 +25,10 @@
     <div class="Navigation">
 
       <ul>
-        <li class="First"><a class="First link" href="/HTML/Home.html">Home</a></li>
-        <li class="Second"><a class="Second Link" href="/HTML/Laws.html">Laws</a></li>
-        <li class="Third"><a class="Third link" href="/HTML/Technical Terms.html Terms.html">Technical Terms</a></li>
-        <li class="Fourth"><a class="Fourth link" href="/HTML/History.html">History</a></li>
+        <li class="First"><a class="First link" href="../Home.html">Home</a></li>
+        <li class="Second"><a class="Second Link" href="../HTML/Laws.html">Laws</a></li>
+        <li class="Third"><a class="Third link" href="../HTML/Technical Terms.html">Technical Terms</a></li>
+        <li class="Fourth"><a class="Fourth link" href="../HTML/History.html">History</a></li>
 
       </ul>  
         
@@ -41,19 +41,19 @@
 
 
     <div class="Links">
-      <img class="Hampter" src="/Pictures/Hampter_clutch.png">
+      <img class="Hampter" src="../Pictures/Hampter_clutch.png">
       <br>
       <br>
-      <a href="/HTML/Home.html">Home</a>
+      <a href="../Home.html">Home</a>
       <br>
       <br>
-      <a href="/HTML/Laws.html">Laws</a>
+      <a href="../HTML/Laws.html">Laws</a>
       <br>
       <br>
-      <a href="/HTML/Technical Terms.html Terms.html">Technical Terms</a>
+      <a href="../HTML/Technical Terms.html">Technical Terms</a>
       <br>
       <br>
-      <a href="/HTML/History.html">History</a>
+      <a href="../HTML/History.html">History</a>
       </div>
 
 </div>
@@ -89,14 +89,14 @@
       6.  Presentation: Has the role of determining the format of data, deciding how its presented. This is also where data encryption occurs. HTTPS has for example a request and response structure between a client and server. 
       <br> <br>
       7. Application: This is where human input/interaction occurs through websites. HTTP data to end-users/Clients is provided in this layer.</p>
-    <img src="/Pictures/" alt="OSI">
+    <img src="../Pictures/OSI.png" alt="OSI">
     </div>
 
       <h1 class="Points">The Server-Client-Model</h1>
       <h4 class="Sub_title">The Role Of A Server</h4>
 <div class="SERVER">
     <p class="Text"> The role of a server in a “Server-Client-Model” most commonly consists of being a provider of data, services and resources in general to the client, who interacts with the server to access said material. In addition, the role of the server is to handle client requests such as a URL for a website or the downloading of an online file and to process the request and respond appropriately with the requested resources. </p>
-    <img src="/Pictures/" alt="SERVER">
+    <img src="../Pictures/SERVER.jpg" alt="SERVER">
   </div>
 
     <h4 class="Sub_title">The Role Of A Client And Its Differnece From A Server</h4>
@@ -106,7 +106,7 @@
       The client's role consists of requesting a server to provide them with services and resources and it awaits for a response by the server. An example of this is a web browser sending a HTTP request (Essentially a URL) to a web server to retrieve a webpage like youtube. 
       
       The role of a server is to respond and provide the client with the requested resources/services and await incoming requests by clients and respond accordingly. Like providing the client a webpage in response to a HTTP request. </p>
-      <img src="/Pictures/" alt="CLIENT">
+      <img src="../Pictures/CLIENT.png" alt="CLIENT">
     </div>
       <h1 class="Points">Differences Between HTTP And HTTPS</h1>
       <h4 class="Sub_title">Differneces Between PUT,GET And POST Methods In HTTP</h4>
@@ -116,7 +116,7 @@
         PUT: PUT is a method that is used to update an existing resource by replacing the entire resource with the new updated resource that will act as the replacement resource. This essentially means that any resources not included in the new replacement resource will be excluded and deleted. This method has an idempotent nature as well, meaning that the result will not change with repeated requests, ensuring that the resource will always be replaced with the same content.
         <br><br>
         POST: POST is a method that is used to create new resources, meaning that unlike the GET method, a POST method includes a request body that specifies the attributes and contents of the resource that is to be created. </p>
-        <img src="/Pictures/" alt="METHODS">
+        <img src="../Pictures/METHODS.jpg" alt="METHODS">
       </div>
 
         <h4 class="Sub_title">What Are HTTP Codes</h4>
@@ -132,19 +132,19 @@
           Status Code 404: This code tells the user that the resource that they requested could not be found and can occur when the provided URL is wrong, when the resource has been moved or deleted and either not created or simply removed. 
           <br><br>
           Status Code 500: This code tells the user that there is an issue with the server concerning the users request, preventing the server from processing the users request. The issue is a server side issue and has nothing to do with the user or its request.</p>
-          <img src="/Pictures/" alt="HTTP">
+          <img src="../Pictures/HTTP.png" alt="HTTP">
         </div>
 
           <h4 class="Sub_title">What SSL/TLS Is And What Purpose Do They Serve In Safe Communication Over A Network</h4>
           <div class="SSL">
           <p class="Text">Secure Socket Layer (SSL) and Transport Layer Security (TLS) are communication protocols that allow safe communication between devices through the establishment of digital certificates that allow Clients to identify and establish encrypted network connections to Servers with the use of the SSL/TLS protocols. It should be mentioned that TLS protocol is an updated and more secure version of the SSL protocol. </p>
-          <img src="" alt="SSL">
+          <img src="../Pictures/SSL.jpg" alt="SSL">
         </div>
 
           <h4 class="Sub_title">What Is a SSL-Certificate And Its Importance within Safe Web Communication</h4>
           <div class="CERTIFICATE">
           <p class="Text">A SSL-Certificate is a digital certificate that authenticates a website's identity and establishes an encrypted connection between the Web browser (Server) and Website (Client), preventing hackers and other external parties from stealing or accessing any confidential information or data that is transferred between the 2 points. </p>
-          <img src="/Pictures/" alt="CERTIFICATE">
+          <img src="../Pictures/CERTIFICATE.png" alt="CERTIFICATE">
         </div>
 
           <h4 class="Sub_title">What Are DDoS Attacks And Their Consequences</h4>
@@ -154,32 +154,30 @@
             The Devices used by the perpetrator are almost always compromised devices that have been infected with a virus or application that allows the perpetrator to gain remote access to the compromised device and cause it to heed every command that the hacker gives. 
             <br><br>
             Successful DDoS attacks have the potential of causing major damage to the owner of the server, in the forms of disruption of a businesses services leading to lost revenue from the servers downtime. </p>
-            <img src="/Pictures/" alt="DDOS">
+            <img src="../Pictures/DDOS.png" alt="DDOS">
           </div>
 
             <h1 class="Points">What Domain Name Systems Are</h1>
             <h4 class="Sub_title">What Is Root level In The DNS-Hierarchy And Its Functions </h4>
             <div class="ROOT">
             <p class="Text">Root Level is the name of the level where the 13 Root Cluster Servers operate, these Clusters of servers are given the task of managing and redirecting queries to Top Level Domain servers (More about that in the next section) that are relevant to the servers incoming queries.  </p>
-            <img src="/Pictures/" alt="ROOT">
           </div>
 
             <h4 class="Sub_title">What Is a Top Level And Examples Of It</h4>
-            <div class="TOP">
+            <div class="DNS">
             <p class="Text">Top Level Domains are essentially a level right below the root level and consist of the last part  of the domain name. An example would be google.com/search…. The “.com” that comes right  after the domain name “google” is seen as the TLD and comes in various types, with some being generic (.com, .org, .net), country specific ( .se and .uk) as well as sponsored ( .gov and .edu). </p>
-            <img src="/Pictures/" alt="TOP">
+            <img src="../Pictures/DNS.jpg" alt="DNS">
           </div>
 
             <h4 class="Sub_title">Second Level Domains And Their Importance For Web Addresses</h4>
             <div class="SECOND">
             <p class="Text">Second Level Domains are essentially the name of the website's domain name and is found right before the TLD. an example would be google.com/search…. With “google” being the domain name as well as what people would refer to the Second Level Domain. </p>
-            <img src="/Pictures/" alt="">
           </div>
 
             <h4 class="Sub_title">What Is A Sub-Domain And Its Usage In Web Addesses</h4>
             <div class="SUB">
             <p class="Text">A Sub-Domain is essentially an additional piece of information/note that gives the user more context of what the URL address could lead the user to. An example would be something like Men.Shop.com/blue… . With “Men” being the Sub-Domain, providing the user with the context of the link sending them to the Mens section of the shopping website. </p>
-            <img src="/Pictures/" alt="SECOND">
+            <img src="../Pictures/SUB.png" alt="SUB">
           </div>
 
             <h4 class="Sub_title">What Does A Host Represent In A URL And Its Relation To DNS</h4>
@@ -187,7 +185,7 @@
             <p class="Text">(Im assuimng the question in the assignment is about Host names)
               <br><br>
               The “Host” is the part of the URL that shows where the resources are coming from (The Host that is mentioned in the URL). This host name is converted into or from a computer friendly ip address. The Host name consists of the TLD, SLD and anything after a protocol (Like HTTP) and before the first / in the URL. </p>
-              <img src="/Pictures/" alt="HOST"> 
+              <img src="../Pictures/HOST.png" alt="HOST"> 
             </div>
 
 
