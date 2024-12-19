@@ -7,8 +7,203 @@ gap: 10px;
 
 .GDPR img {
     order: 1;
-    width: 50%;
+    width: 300vh;
     height: auto;
     padding-right: 10%;
+}
 
+.Intro {
+
+    display: flex;
+    align-items:flex-start;
+    gap: 10px;
+}
+
+.Intro img {
+    order: 1;
+    width: 300vh;
+    height: auto;
+    padding-right: 10%;
+}
+
+.LEK {
+
+    display: flex;
+    align-items:flex-start;
+    gap: 10px;
+}
+
+.LEK img {
+    order: 1;
+    width: 300vh;
+    height: auto;
+    padding-right: 10%;
+}
+
+.DPA {
+
+    display: flex;
+    align-items:flex-start;
+    gap: 10px;
+}
+
+.DPA img {
+    order: 1;
+    width: 300vh;
+    height: auto;
+    padding-right: 10%;
+}
+
+.ES {
+
+    display: flex;
+    align-items:flex-start;
+    gap: 10px;
+}
+
+.ES img {
+    order: 1;
+    width: 300vh;
+    height: auto;
+    padding-right: 10%;
+}
+
+.TPA {
+
+    display: flex;
+    align-items:flex-start;
+    gap: 10px;
+}
+
+.TPA img {
+    order: 1;
+    width: 300vh;
+    height: auto;
+    padding-right: 10%;
+}
+
+.PTS {
+
+    display: flex;
+    align-items:flex-start;
+    gap: 10px;
+}
+
+.PTS img {
+    order: 1;
+    width: 300vh;
+    height: auto;
+    padding-right: 10%;
+}
+
+.EUR {
+
+    display: flex;
+    align-items:flex-start;
+    gap: 10px;
+}
+
+.EUR img {
+    order: 1;
+    width: 300vh;
+    height: auto;
+    padding-right: 10%;
+}
+
+.PEC {
+
+    display: flex;
+    align-items:flex-start;
+    gap: 10px;
+}
+
+.PEC img {
+    order: 1;
+    width: 300vh;
+    height: auto;
+    padding-right: 10%;
+}
+
+.IC {
+
+    display: flex;
+    align-items:flex-start;
+    gap: 10px;
+}
+
+.IC img {
+    order: 1;
+    width: 300vh;
+    height: auto;
+    padding-right: 10%;
+}
+
+.SUC {
+
+    display: flex;
+    align-items:flex-start;
+    gap: 10px;
+}
+
+.SUC img {
+    order: 1;
+    width: 300vh;
+    height: auto;
+    padding-right: 10%;
+}
+
+.PI {
+
+    display: flex;
+    align-items:flex-start;
+    gap: 10px;
+}
+
+.PI img {
+    order: 1;
+    width: 300vh;
+    height: auto;
+    padding-right: 10%;
+}
+
+.TF {
+
+    display: flex;
+    align-items:flex-start;
+    gap: 10px;
+}
+
+.TF img {
+    order: 1;
+    width: 300vh;
+    height: auto;
+    padding-right: 10%;
+}
+
+.CR {
+
+    display: flex;
+    align-items:flex-start;
+    gap: 10px;
+}
+
+.CR img {
+    order: 1;
+    width: 300vh;
+    height: auto;
+    padding-right: 10%;
+}
+
+.CC {
+
+    display: flex;
+    align-items:flex-start;
+    gap: 10px;
+}
+
+.CC img {
+    order: 1;
+    width: 300vh;
+    height: auto;
+    padding-right: 10%;
 }
