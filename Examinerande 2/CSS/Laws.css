@@ -35,7 +35,7 @@ gap: 10px;
 
 .LEK img {
     order: 1;
-    width: 300vh;
+    width: 70vh;
     height: auto;
     padding-right: 10%;
 }
@@ -63,7 +63,7 @@ gap: 10px;
 
 .ES img {
     order: 1;
-    width: 300vh;
+    width: 150vh;
     height: auto;
     padding-right: 10%;
 }
@@ -77,7 +77,7 @@ gap: 10px;
 
 .TPA img {
     order: 1;
-    width: 300vh;
+    width: 70vh;
     height: auto;
     padding-right: 10%;
 }
@@ -105,7 +105,7 @@ gap: 10px;
 
 .EUR img {
     order: 1;
-    width: 300vh;
+    width: 70vh;
     height: auto;
     padding-right: 10%;
 }
@@ -161,7 +161,7 @@ gap: 10px;
 
 .PI img {
     order: 1;
-    width: 300vh;
+    width: 80vh;
     height: auto;
     padding-right: 10%;
 }
@@ -175,7 +175,7 @@ gap: 10px;
 
 .TF img {
     order: 1;
-    width: 300vh;
+    width: 100vh;
     height: auto;
     padding-right: 10%;
 }
@@ -203,7 +203,7 @@ gap: 10px;
 
 .CC img {
     order: 1;
-    width: 300vh;
+    width: 70vh;
     height: auto;
     padding-right: 10%;
 }

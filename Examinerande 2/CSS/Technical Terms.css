@@ -1,0 +1,181 @@
+.OSI {
+
+display: flex;
+align-items:flex-start;
+gap: 10px;
+}
+    
+.OSI img {
+order: 1;
+ width: 300vh;
+height: auto;
+ padding-right: 10%;
+    }
+
+.SERVER {
+
+display: flex;
+align-items:flex-start;
+gap: 10px;
+}
+    
+.SERVER img {
+order: 1;
+width: 300vh;
+height: auto;
+padding-right: 10%;
+}
+
+.CLIENT {
+
+display: flex;
+align-items:flex-start;
+gap: 10px;
+}
+            
+.CLIENT img {
+order: 1;
+width: 300vh;
+height: auto;
+padding-right: 10%;
+}
+
+.METHODS {
+
+    display: flex;
+    align-items:flex-start;
+    gap: 10px;
+    }
+                
+    .METHODS img {
+    order: 1;
+    width: 300vh;
+    height: auto;
+    padding-right: 10%;
+    }
+
+    .HTTP {
+
+        display: flex;
+        align-items:flex-start;
+        gap: 10px;
+        }
+                    
+        .HTTP img {
+        order: 1;
+        width: 300vh;
+        height: auto;
+        padding-right: 10%;
+        }
+
+        .SSL {
+
+            display: flex;
+            align-items:flex-start;
+            gap: 10px;
+            }
+                        
+            .SSL img {
+            order: 1;
+            width: 300vh;
+            height: auto;
+            padding-right: 10%;
+            }
+
+            .CERTIFICATE {
+
+                display: flex;
+                align-items:flex-start;
+                gap: 10px;
+                }
+                            
+                .CERTIFICATE img {
+                order: 1;
+                width: 300vh;
+                height: auto;
+                padding-right: 10%;
+                }
+
+                .DDOS {
+
+                    display: flex;
+                    align-items:flex-start;
+                    gap: 10px;
+                    }
+                                
+                    .DDOS img {
+                    order: 1;
+                    width: 300vh;
+                    height: auto;
+                    padding-right: 10%;
+                    }
+
+                    .ROOT {
+
+                        display: flex;
+                        align-items:flex-start;
+                        gap: 10px;
+                        }
+                                    
+                        .ROOT img {
+                        order: 1;
+                        width: 300vh;
+                        height: auto;
+                        padding-right: 10%;
+                        }
+
+                        .TOP {
+
+                            display: flex;
+                            align-items:flex-start;
+                            gap: 10px;
+                            }
+                                        
+                            .TOP img {
+                            order: 1;
+                            width: 300vh;
+                            height: auto;
+                            padding-right: 10%;
+                            }
+
+                            .SECOND {
+
+                                display: flex;
+                                align-items:flex-start;
+                                gap: 10px;
+                                }
+                                            
+                                .SECOND img {
+                                order: 1;
+                                width: 300vh;
+                                height: auto;
+                                padding-right: 10%;
+                                }
+
+                                .SUB {
+
+                                    display: flex;
+                                    align-items:flex-start;
+                                    gap: 10px;
+                                    }
+                                                
+                                    .SUB img {
+                                    order: 1;
+                                    width: 300vh;
+                                    height: auto;
+                                    padding-right: 10%;
+                                    }
+
+                                    .HOST {
+
+                                        display: flex;
+                                        align-items:flex-start;
+                                        gap: 10px;
+                                        }
+                                                    
+                                        .HOST img {
+                                        order: 1;
+                                        width: 300vh;
+                                        height: auto;
+                                        padding-right: 10%;
+                                        }
